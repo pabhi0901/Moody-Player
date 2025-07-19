@@ -1,0 +1,2 @@
+# file named here are ignored when pushing on github
+.env 
