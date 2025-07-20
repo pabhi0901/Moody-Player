@@ -75,6 +75,8 @@ function WebcamMoodDetector() {
 
       <button className='p-2 h-fit m-4 border-2 border-black active:scale-98 rounded-xl'
       onClick={()=>{detectMood()}}>Detect Mood</button>
+
+   
   
     </div>
   );
