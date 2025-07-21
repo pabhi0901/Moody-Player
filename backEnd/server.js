@@ -3,11 +3,6 @@ const app = require("./src/app")
 const connectToDB = require("./src/db/db")
 connectToDB()
 
-app.get("/",(req,res)=>{
-    res.send("this is the home page of that bloody moody player full stack app")
-})
-
-
 
 app.listen(3000,()=>{
     console.log("Server has been started at 3000 port");
